@@ -1,6 +1,6 @@
 <?php
 
-namespace RmTop\RmSpider;
+namespace RmTop\RmSpider\Badiu;
 
 class Spider
 {
@@ -12,7 +12,7 @@ class Spider
      * @param array $urlArr
      * @return bool|string
      */
-    function push(string $authUrl,array  $urlArr){
+    static function push(string $authUrl,array  $urlArr){
         $api = "http://data.zz.baidu.com/urls?site=$authUrl";
         $ch = curl_init();
         $options =  array(
@@ -24,7 +24,6 @@ class Spider
         );
         curl_setopt_array($ch, $options);
         return curl_exec($ch);
-
     }
 
 }
