@@ -1,0 +1,17 @@
+{
+    "name": "rmtop/rmsf-spider-service",
+    "authors": [
+        {
+            "name": "zjh",
+            "email": "zhuok520@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RmTop\\RmSpider\\": "src/"
+        }
+    }
+}
