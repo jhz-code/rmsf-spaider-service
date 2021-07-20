@@ -7,6 +7,8 @@ class Spider
 
 
     /**
+     * 蜘蛛推送服务
+     *
      * 数据推送
      * @param string $authUrl
      * @param array $urlArr
