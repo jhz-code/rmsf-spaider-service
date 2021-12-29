@@ -1,6 +1,6 @@
 <?php
 
-namespace RmTop\RmSpider\Badiu;
+namespace RmTop\RmSpider\baidu;
 
 class Spider
 {
